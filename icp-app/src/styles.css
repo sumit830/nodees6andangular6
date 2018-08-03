@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.css';
+@import '~cd-themify-icons/index.css';
+@import '~britecharts/dist/css/britecharts.min.css';
+
+body, html{height:100%;}
+body{background-color:#dfe1ed;}
+.btn{border-radius:0; transition:all .3s ease-in;}
+.btn-primary{background-color:#313a73;}
+.btn-primary:hover, .btn-primary:focus{background-color:#2f2f2f; opacity:0.8;}
+.gridbox{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.078);
+  min-height:220px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.gridbox .top{display: flex;   justify-content: space-between; padding:10px 20px; font-size:12px; opacity:0.6;}
+.gridbox .middle{padding:5px 30px;}
+.gridbox .bottom{display: flex;   justify-content: space-between; background-color:#fafbfd; padding:20px 20px; font-size:12px; border-top:1px solid #e1e1e3;}
+.gridbox .bottom i{font-size:14px; margin-right:7px;}
+.gridbox h3{font-size:18px;}
